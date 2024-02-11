@@ -18,8 +18,8 @@ function App() {
   return (
     <div className='app scroll-smooth bg-[#121B32] min-h-screen xs:px-[3%] lg:px-[2%] xl:px-[10%] 2xl:px-[22%]'>
       <AnimatePresence mode='wait'>
-        <div className='h-[5%] bg-[#121B32] sm:w-[94%] lg:w-[96%] xl:w-[80%] 2xl:w-[56%] flex justify-between fixed top-0 pt-[1.5%] lg:left-[2%] xl:left-[10%] 2xl:left-[22%] z-20 text-[#ccd6f6] xs:hidden sm:flex'>
-          <nav className='w-[40%] font-semibold text-[1.1rem]'>
+        <div className='h-[5%] bg-[#121B32] sm:w-[94%] lg:w-[96%] xl:w-[80%] 2xl:w-[56%] flex justify-between fixed top-0 pt-[1.5%] lg:left-[2%] xl:left-[10%] 2xl:left-[22%] z-20 text-[#ccd6f6]'>
+          <nav className='w-[40%] font-semibold text-[1.1rem] xs:hidden sm:block'>
             <ul className='flex gap-[5%] justify-start'>
               <li>
                 <button
@@ -63,7 +63,7 @@ function App() {
               </li>
             </ul>
           </nav>
-          <nav className='w-[20%] font-semibold text-[1.3rem]'>
+          <nav className='xs:fixed xs:right-3 lg:right-[2%] xl:right-[10%] 2xl:right-[22%] xs:w-full sm:w-[20%] font-semibold text-[1.3rem]'>
             <ul className='flex gap-[5%] justify-end'>
               <li>
                 <a
@@ -112,7 +112,7 @@ function App() {
         </div>
         <div
           ref={creationRef}
-          className='pb-36 xs:-translate-y-60 sm:-translate-y-0'
+          className='xs:pb-10 sm:pb-36 xs:-translate-y-60 sm:-translate-y-0'
         >
           {' '}
           <Creations />
