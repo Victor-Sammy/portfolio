@@ -1,0 +1,99 @@
+.contain {
+    display: inline-block;
+    height: auto;
+}
+
+#text {
+    letter-spacing: 2px;
+    border-right: 5px solid cyan;
+    width: 80%;
+    line-height: 80px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 5s, cursor .7s step-end infinite alternate;
+}
+
+.inner-board {
+    background: url('../assets/benz.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 9%;
+    border-top-right-radius: 9%;
+    opacity: 0.6;
+}
+
+.inner-board2 {
+    background: url('../assets/face-mask-pic.png');
+    background-size: contain;
+    background-position: center;
+    border-top-left-radius: 9%;
+    border-top-right-radius: 9%;
+    opacity: 0.8;
+}
+
+/* cursor blinking */
+@keyframes cursor {
+    50% {
+        border-color: transparent;
+    }
+}
+
+/* typing effect */
+@keyframes typing {
+    from { width: 0 }
+}
+
+@media (min-width: 300px) {
+    #text {
+        width: 80%;
+        line-height: 70%;
+        margin-left: 7%;
+        animation: typing 5s, cursor .5s step-end infinite alternate;
+    }
+}
+@media (min-width: 710px) {
+    #text {
+        width: 70%;
+        line-height: 100%;
+        margin-left: 12%;
+        animation: typing 5s, cursor .5s step-end infinite alternate;
+    }
+}
+@media (min-width: 900px) {
+    #text {
+        width: 54%;
+        margin-left: 20%;
+        animation: typing 5s, cursor .5s step-end infinite alternate;
+    }
+}
+@media (min-width: 1024px) {
+    #text {
+        width: 64%;
+        margin-left: 15%;
+        animation: typing 5s, cursor .5s step-end infinite alternate;
+    }
+}
+
+@media (min-width: 1280px) {
+    #text {
+        width: 54%;
+        margin-left: 20%;
+        animation: typing 5s, cursor .5s step-end infinite alternate;
+    }
+}
+
+@media (min-width: 1440px) {
+    #text {
+        width: 48%;
+        margin-left: 23%;
+        animation: typing 5s, cursor .5s step-end infinite alternate;
+    }
+}
+
+@media (min-width: 1900px) {
+    #text {
+        width: 52%;
+        margin-left: 21%;
+        animation: typing 5s, cursor .5s step-end infinite alternate;
+    }
+}
