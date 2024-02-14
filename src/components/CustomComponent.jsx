@@ -70,10 +70,8 @@ const CustomComponent = ({ controls, contrls, cntrols, value, isVisible }) => {
                   <MdPlayArrow />
                 </span>
                 <p className=''>
-                  Collaborated with senior engineers and product management
-                  following best practices for the full software development
-                  life cycle, including coding standards, code reviews, source
-                  control management, build processes, testing, and operations.
+                  Implemented JavaScript algorithms for calculating birth charts
+                  and generating personalized horoscopes on the frontend.
                 </p>
               </motion.li>
               <motion.li
@@ -86,11 +84,12 @@ const CustomComponent = ({ controls, contrls, cntrols, value, isVisible }) => {
                   <MdPlayArrow />
                 </span>
                 <p>
-                  I collaborated closely with astrology experts, ensuring a
-                  harmonious integration of their insights into the digital
-                  realm. In this dynamic startup environment, I embraced the
-                  challenges of agile development, making rapid improvements to
-                  the platform&apos;s functionality.
+                  Along with the team we implemented a feature that displays the
+                  real-time availability status of professionals for calls. This
+                  could include indicators such as online/offline status,
+                  current availability, or estimated wait times for
+                  consultations. Providing this information helps users make
+                  informed decisions about when to initiate a call.
                 </p>
               </motion.li>
               <motion.li
@@ -103,9 +102,11 @@ const CustomComponent = ({ controls, contrls, cntrols, value, isVisible }) => {
                   <MdPlayArrow />
                 </span>
                 <p>
-                  Contributed to the accuracy and reliability of the
-                  astrology-based predictions, providing users with a truly
-                  unique and personalized experience.
+                  I collaborated closely with astrology experts, ensuring a
+                  harmonious integration of their insights into the digital
+                  realm. In this dynamic startup environment, I embraced the
+                  challenges of agile development, making rapid improvements to
+                  the platform&apos;s functionality.
                 </p>
               </motion.li>
             </motion.ul>
