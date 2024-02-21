@@ -72,6 +72,9 @@ const CustomComponent = ({ controls, contrls, cntrols, value, isVisible }) => {
                 <p className=''>
                   Implemented JavaScript algorithms for calculating birth charts
                   and generating personalized horoscopes on the frontend.
+                  <br />
+                  Tools:{' '}
+                  <span className='text-[#ccd6f6]'>React JS, MongoDB Api</span>
                 </p>
               </motion.li>
               <motion.li
@@ -90,6 +93,11 @@ const CustomComponent = ({ controls, contrls, cntrols, value, isVisible }) => {
                   current availability, or estimated wait times for
                   consultations. Providing this information helps users make
                   informed decisions about when to initiate a call.
+                  <br />
+                  Tools:{' '}
+                  <span className='text-[#ccd6f6]'>
+                    Socket.IO, MongoDB, GraphQL, React JS
+                  </span>
                 </p>
               </motion.li>
               <motion.li
@@ -102,11 +110,16 @@ const CustomComponent = ({ controls, contrls, cntrols, value, isVisible }) => {
                   <MdPlayArrow />
                 </span>
                 <p>
-                  I collaborated closely with astrology experts, ensuring a
-                  harmonious integration of their insights into the digital
-                  realm. In this dynamic startup environment, I embraced the
-                  challenges of agile development, making rapid improvements to
-                  the platform&apos;s functionality.
+                  Using the official Razorpay JavaScript SDK, I integrated the
+                  payment gateway seamlessly into our React.js frontend. I
+                  created a dedicated component or module within our application
+                  to handle the payment process, allowing users to initiate
+                  premium service subscriptions or one-time payments.
+                  <br />
+                  Tools:{' '}
+                  <span className='text-[#ccd6f6]'>
+                    Razorpay SDK, React JS, MongoDB
+                  </span>
                 </p>
               </motion.li>
             </motion.ul>
@@ -142,10 +155,17 @@ const CustomComponent = ({ controls, contrls, cntrols, value, isVisible }) => {
                   <MdPlayArrow />
                 </span>
                 <p>
-                  My responsibilities spanned full-stack development, from
-                  building responsive web applications to integrating social
-                  media functionalities and optimizing email campaigns. I
-                  contributed to the success of SEO/SEM strategies.
+                  Performance Optimization Specialist - Ensuring fast load times
+                  and smooth user experiences, especially on mobile devices.
+                  <br />
+                  <span>Tools: </span>
+                  <span className='text-[#ccd6f6]'>
+                    Chrome Developer Tools, Lighthouse, and WebPageTest{' '}
+                  </span>
+                  <span>
+                    for performance profiling, identify bottlenecks, and
+                    optimize code and assets accordingly.
+                  </span>
                 </p>
               </motion.li>
               <motion.li
@@ -158,8 +178,17 @@ const CustomComponent = ({ controls, contrls, cntrols, value, isVisible }) => {
                   <MdPlayArrow />
                 </span>
                 <p>
-                  I collaborate closely with product designers and the marketing
-                  team to bring clients&apos; visions to life.
+                  Scalability Architect - Handling increasing traffic and data
+                  volumes without sacrificing performance. By implementing
+                  scalable architecture patterns like microservices, serverless
+                  computing, and caching strategies to accommodate business
+                  growth and handle spikes in demand effectively.
+                  <br />
+                  <span>Tools: </span>
+                  <span className='text-[#ccd6f6]'>
+                    AWS Lambda, Docker, and Redis{' '}
+                  </span>
+                  <span>was utilized in scalability efforts.</span>
                 </p>
               </motion.li>
               <motion.li
@@ -172,10 +201,17 @@ const CustomComponent = ({ controls, contrls, cntrols, value, isVisible }) => {
                   <MdPlayArrow />
                 </span>
                 <p>
-                  Leveraging data-driven decision-making to enhance website
-                  visibility and user engagement. Collaborating closely with
-                  marketing teams, I ensured that our technical solutions
-                  aligned seamlessly with overarching digital marketing goals.
+                  Regularly update dependencies using package managers like npm
+                  or yarn and utilize tools like npm audit or Snyk to identify
+                  and remediate security vulnerabilities in dependencies.
+                  <br />
+                  <span>Tools: </span>
+                  <span className='text-[#ccd6f6]'>
+                    npm audit, Snyk, or GitHub Dependabot{' '}
+                  </span>
+                  <span>
+                    for dependency vulnerability scanning and management.
+                  </span>
                 </p>
               </motion.li>
             </motion.ul>
