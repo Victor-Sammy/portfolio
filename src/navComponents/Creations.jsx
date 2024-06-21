@@ -281,28 +281,17 @@ const Creations = () => {
               </span>
               <div className='flex gap-5 items-center text-blue-200 text-[2rem]'>
                 <span>
-                  <a href='https://github.com/Victor-Sammy/crypto-pay'>
-                    <FaGithub />
-                  </a>
-                </span>
-                <span>
-                  <a href='https://cryptopaytrade.netlify.app/'>
+                  <a href='https://adonis-assistant.vercel.app/'>
                     <FaArrowUpFromBracket />
                   </a>
                 </span>
               </div>
             </div>
             <h1 className='text-[1.7rem] 2xl:text-[1.8rem] text-blue-200 font-semibold xs:my-4 sm:my-8'>
-              CryptoPay Investment Wallet
+              Adonis Voice Assistant
             </h1>
             <div className='project-details text-[#8c9ec3] text-[1.2rem]'>
-              <p className='leading-8 mb-5'>
-                An investment wallet system for cryptocurrency exchange. <br />
-                Note: the architecture and algorythm does not reflect the
-                functionality of the actual crypto system but is designed and
-                built for the love of web3.
-              </p>
-              <p className='leading-10'>Firebase (firestore), React.js</p>
+              <p className='leading-10'>ReactJS Vite, Gemini ai </p>
             </div>
           </motion.div>
         </div>
