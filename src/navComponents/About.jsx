@@ -85,7 +85,7 @@ const About = () => {
                 <span className='text-xs text-cyan-300'>
                   <FaPlay />
                 </span>{' '}
-                <span className='pt-1'>Javascript ES6+</span>
+                <span className='pt-1'>React JS</span>
               </motion.li>
               <motion.li
                 className='flex items-center gap-3'
@@ -99,7 +99,7 @@ const About = () => {
                 <span className='text-xs text-cyan-300'>
                   <FaPlay />
                 </span>{' '}
-                <span className='pt-1'>React.js</span>
+                <span className='pt-1'>Vue JS</span>
               </motion.li>
               <motion.li
                 className='flex items-center gap-3'

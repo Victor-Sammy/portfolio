@@ -43,20 +43,20 @@ const CustomComponent = ({ controls, contrls, cntrols, value, isVisible }) => {
   }, [isVisible, controls, cntrols, contrls])
 
   const render = () => {
-    if (value === 'astrology') {
+    if (value === 'oaknet') {
       return (
         <div>
           <div className='text-center pb-2'>
             <span className='font-semibold text-[#ccd6f6] xs:text-[1.4rem] sm:text-[1.7rem]'>
-              Frontend Development Engineer @{' '}
-              <span className='text-cyan-300'>ASTROLOGY24</span>
+              Junior Software Enginner @{' '}
+              <span className='text-cyan-300'>OAKNET SOLUTIONS</span>
             </span>
-            <h1 className='duration py-3 text-[1.4rem]'>May 2021 - Jan 2022</h1>
+            <h1 className='duration py-3 text-[1.4rem]'>2024 - 2025</h1>
           </div>
           <div className='xs:text-[1.1rem] sm:text-[1.2rem]'>
             As a software developer intern at{' '}
             <span className='text-cyan-300'>
-              <a href='https://astrology24.co.in/'>Astrology24</a>
+              <a href='https://astrology24.co.in/'>Oaknet Solutions</a>
             </span>{' '}
             specializing in astrology, my role involved:
             <motion.ul className='mt-7'>
@@ -70,11 +70,12 @@ const CustomComponent = ({ controls, contrls, cntrols, value, isVisible }) => {
                   <MdPlayArrow />
                 </span>
                 <p className=''>
-                  Implemented JavaScript algorithms for calculating birth charts
-                  and generating personalized horoscopes on the frontend.
+                  Built user-friendly interfaces that improved user
+                  satisfaction, increasing customer retention by 15% across 7+
+                  platforms.
                   <br />
                   Tools:{' '}
-                  <span className='text-[#ccd6f6]'>React JS, MongoDB Api</span>
+                  <span className='text-[#ccd6f6]'>React JS, MongoDB</span>
                 </p>
               </motion.li>
               <motion.li
@@ -87,16 +88,12 @@ const CustomComponent = ({ controls, contrls, cntrols, value, isVisible }) => {
                   <MdPlayArrow />
                 </span>
                 <p>
-                  Along with the team we implemented a feature that displays the
-                  real-time availability status of professionals for calls. This
-                  could include indicators such as online/offline status,
-                  current availability, or estimated wait times for
-                  consultations. Providing this information helps users make
-                  informed decisions about when to initiate a call.
+                  Engineered a scalable software solution capable of supporting
+                  10,000+ concurrent users with 99.9% uptime.
                   <br />
                   Tools:{' '}
                   <span className='text-[#ccd6f6]'>
-                    Socket.IO, MongoDB, GraphQL, React JS
+                    MongoDB API, GraphQL, React JS
                   </span>
                 </p>
               </motion.li>
@@ -110,15 +107,12 @@ const CustomComponent = ({ controls, contrls, cntrols, value, isVisible }) => {
                   <MdPlayArrow />
                 </span>
                 <p>
-                  Using the official Razorpay JavaScript SDK, I integrated the
-                  payment gateway seamlessly into our React.js frontend. I
-                  created a dedicated component or module within our application
-                  to handle the payment process, allowing users to initiate
-                  premium service subscriptions or one-time payments.
+                  Introduced microservices architecture, improving platform
+                  flexibility and reducing downtime by 25%.
                   <br />
                   Tools:{' '}
                   <span className='text-[#ccd6f6]'>
-                    Razorpay SDK, React JS, MongoDB
+                    Chrome Developer Tools, Tailwindcss
                   </span>
                 </p>
               </motion.li>
@@ -127,21 +121,21 @@ const CustomComponent = ({ controls, contrls, cntrols, value, isVisible }) => {
         </div>
       )
     }
-    if (value === 'oaknet') {
+    if (value === 'aib') {
       return (
         <div>
           <div className='text-center'>
             <span className='font-semibold text-[#ccd6f6] xs:text-[1.4rem] sm:text-[1.7rem]'>
-              Full-Stack Developer @{' '}
-              <span className='text-cyan-300'>OAKNET SOLUTIONS</span>
+              Entry level Frontend Developer @{' '}
+              <span className='text-cyan-300'>AIB</span>
             </span>
-            <h1 className='duration py-3 text-[1.4rem]'>Jan 2022 - Present</h1>
+            <h1 className='duration py-3 text-[1.4rem]'>2023 - 2024</h1>
           </div>
           <div className='xs:text-[1.1rem] sm:text-[1.2rem]'>
-            Being a software developer at{' '}
+            Being a Frontend Developer at{' '}
             <span className='text-cyan-300'>
               <a href='https://www.oaknetsolution.com/category/features/'>
-                Oaknet Solutions
+                AIB
               </a>
             </span>{' '}
             <motion.ul className='mt-7'>
@@ -155,12 +149,12 @@ const CustomComponent = ({ controls, contrls, cntrols, value, isVisible }) => {
                   <MdPlayArrow />
                 </span>
                 <p>
-                  Performance Optimization Specialist - Ensuring fast load times
-                  and smooth user experiences, especially on mobile devices.
+                  Optimized frontend assets, reducing page load time by 50%,
+                  which improved user retention by 20%.
                   <br />
                   <span>Tools: </span>
                   <span className='text-[#ccd6f6]'>
-                    Chrome Developer Tools, Lighthouse, and WebPageTest{' '}
+                    Cloudinary, Lighthouse (Chrome DevTools)
                   </span>
                   <span>
                     for performance profiling, identify bottlenecks, and
@@ -178,17 +172,9 @@ const CustomComponent = ({ controls, contrls, cntrols, value, isVisible }) => {
                   <MdPlayArrow />
                 </span>
                 <p>
-                  Scalability Architect - Handling increasing traffic and data
-                  volumes without sacrificing performance. By implementing
-                  scalable architecture patterns like microservices, serverless
-                  computing, and caching strategies to accommodate business
-                  growth and handle spikes in demand effectively.
-                  <br />
-                  <span>Tools: </span>
-                  <span className='text-[#ccd6f6]'>
-                    AWS Lambda, Docker, and Redis{' '}
-                  </span>
-                  <span>was utilized in scalability efforts.</span>
+                  Implemented an optimized checkout flow, reducing cart
+                  abandonment rates by 15% and increasing conversion rates by
+                  10%.
                 </p>
               </motion.li>
               <motion.li
@@ -201,16 +187,12 @@ const CustomComponent = ({ controls, contrls, cntrols, value, isVisible }) => {
                   <MdPlayArrow />
                 </span>
                 <p>
-                  Regularly update dependencies using package managers like npm
-                  or yarn and utilize tools like npm audit or Snyk to identify
-                  and remediate security vulnerabilities in dependencies.
+                  Collaborated with backend engineers to ensure seamless API
+                  integration, enabling real-time inventory updates.
                   <br />
                   <span>Tools: </span>
                   <span className='text-[#ccd6f6]'>
-                    npm audit, Snyk, or GitHub Dependabot{' '}
-                  </span>
-                  <span>
-                    for dependency vulnerability scanning and management.
+                    Django, Railway, PostgreSQL
                   </span>
                 </p>
               </motion.li>
